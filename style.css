@@ -1,0 +1,1328 @@
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url(fonts/10177.otf);
+}
+@font-face {
+  font-family: 'Rubik';
+  src: url(fonts/Rubik-Light.ttf);
+}
+@font-face {
+  font-family: 'Inter';
+  src: url(fonts/Inter-Bold.ttf);
+}
+a {
+  text-decoration: none;
+}
+body {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  margin-top: 0%;
+  background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+  background-repeat: no-repeat;
+}
+header {
+  margin-top: 0;
+  position: relative;
+}
+header .menu {
+  font-family: 'Gilroy-SemiBold';
+  margin-left: 11.805%;
+  display: grid;
+  grid-template-columns: 6.2992% 61.1023% 7.6744% 16.39534%;
+  padding-top: 4rem;
+}
+header .menu .MenuBlock {
+  display: flex;
+}
+header .menu .MenuBlock .MenuItem {
+  font-size: 0.75rem;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #B5B5B5;
+  margin-left: 1rem;
+  margin-top: 1%;
+}
+header .menu .SignIn {
+  width: 80%;
+  height: 2.25rem;
+  border: 1px solid #F2994A;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: 'Rubik';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2994A;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+header .menu .SignUp {
+  width: 39.71631%;
+  height: 2.25rem;
+  background: #F2994A;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+  border-radius: 3px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: 'Rubik';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+header .BasicInfoBLock {
+  margin-top: 7%;
+  display: grid;
+  margin-left: 11.805%;
+  grid-template-columns: 43.81102% 55.188976%;
+}
+header .BasicInfoBLock .NeedInfoBlock {
+  margin-top: 5%;
+}
+header .BasicInfoBLock .NeedInfoBlock .BasicTitleText {
+  font-size: 2.75rem;
+  color: #99EFD0;
+  font-family: 'Inter';
+}
+header .BasicInfoBLock .NeedInfoBlock .AddInfoText {
+  margin-top: 19px;
+  font-family: 'Gilroy-SemiBold';
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #8476AA;
+}
+header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 29.5668549% 29.5668549%;
+  grid-column-gap: 5%;
+  grid-template-rows: 46px;
+}
+header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn .LearnMore {
+  font-family: 'Rubik';
+  background: #F2994A;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn .Demo {
+  font-family: 'Rubik';
+  color: #F2994A;
+  border: 1px solid #F2994A;
+  box-sizing: border-box;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .BasicInfoBLock .NeedInfoBlock .popupBlock {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+header .BasicInfoBLock .NeedInfoBlock .popupBlock .popupContent {
+  min-width: 60%;
+  min-height: 67%;
+  margin-top: 8%;
+  margin-left: 20%;
+}
+header .BasicInfoBLock .NeedInfoBlock .popupBlock .CloseBtn {
+  font-size: 50px;
+  position: absolute;
+  margin-left: -1%;
+  margin-top: 6.4%;
+  color: #99EFD0;
+  cursor: pointer;
+}
+header .BasicInfoBLock .NeedInfoBlock .VideoPreview {
+  margin-top: 5%;
+}
+header .BasicInfoBLock .ImgPerson .ImgRunMan {
+  right: 0px;
+  width: 100%;
+}
+header .ChoiceAndSponsors {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 3rem;
+}
+header .ChoiceAndSponsors .BkgChoiceBlock {
+  width: 100%;
+  position: absolute;
+  display: grid;
+  margin-top: -10%;
+  grid-template-columns: 22% 22%;
+  opacity: 0.2;
+  gap: 0px 55%;
+  grid-template-areas: "FirstBkgChoice SecondBkgChoice";
+}
+header .ChoiceAndSponsors .BkgChoiceBlock .FirstBkgChoice {
+  grid-area: FirstBkgChoice;
+  margin-left: 5%;
+  width: 100%;
+  max-width: 100%;
+}
+header .ChoiceAndSponsors .BkgChoiceBlock .SecondBkgChoice {
+  grid-area: SecondBkgChoice;
+  width: 100%;
+  max-width: 100%;
+}
+header .Sponsors {
+  opacity: 0.4;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 5.208333%;
+}
+header .Choice {
+  margin-top: 105px;
+}
+header .Choice .ChoiceName {
+  color: #99EFD0;
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 2.625rem;
+  line-height: 50px;
+  text-align: center;
+}
+header .Choice .ChoiceInfoText {
+  text-align: center;
+  color: #8476AA;
+  font-size: 1rem;
+  font-family: 'Gilroy-SemiBold';
+  margin-top: 15px;
+}
+header .Choice .CenterChoiceBlock {
+  width: 100%;
+  margin-top: 50px;
+  position: relative;
+}
+header .Choice .CenterChoiceBlock .InfoChoiceBlock {
+  display: grid;
+  width: 70%;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 106px;
+  grid-column-gap: 5%;
+  grid-row-gap: 43px;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+}
+header .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem {
+  display: grid;
+  grid-template-columns: 17.3913043% 82.6086956%;
+}
+header .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChocieItemName {
+  font-family: 'Gilroy-Bold';
+  font-size: 1.125rem;
+  line-height: 22px;
+  color: #99EFD0;
+}
+header .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChoiceItemText {
+  font-family: 'Gilroy-SemiBold';
+  font-size: 0.875rem;
+  line-height: 22px;
+  color: #8476AA;
+  margin-top: 10px;
+}
+main {
+  position: relative;
+}
+main .TrafficInfoBlock {
+  margin-top: 170px;
+  width: 70%;
+  margin-top: 20em;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+  display: grid;
+  grid-template-columns: 48.5% 45.41%;
+  grid-column-gap: 6%;
+}
+main .TrafficInfoBlock .TrafficInfoText .TrafficInfoName {
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 2.625rem;
+  line-height: 3.125rem;
+  color: #99EFD0;
+}
+main .TrafficInfoBlock .TrafficInfoText .TrafficInfoName .OtherColorWord {
+  color: #f29a49;
+}
+main .TrafficInfoBlock .TrafficInfoText .TrafficTextBlock {
+  font-family: 'Gilroy-SemiBold';
+  font-size: 0.9375rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.5px;
+  color: #8476AA;
+}
+main .TrafficInfoBlock .TrafficInfoText button {
+  background: #F2994A;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+  border-radius: 3px;
+  border: 1px;
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 0.875rem 1.9375rem;
+  margin-top: 43px;
+}
+main .BkgTrafficBlock {
+  opacity: 0.8;
+  margin-top: 25em;
+}
+main .BkgCardBlock {
+  width: 100%;
+  position: relative;
+}
+main .BkgCardBlock .ThirdBkg {
+  opacity: 0.7;
+  width: 100%;
+}
+main .BkgCardBlock .CardBlock {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+  width: 65%;
+  background: rgba(60, 62, 125, 0.19);
+  backdrop-filter: blur(134px);
+  border-radius: 5px;
+  height: 324px;
+  margin-top: -450px;
+}
+main .BkgCardBlock .CardBlock .CardNameText {
+  padding-top: 3.125rem;
+  text-align: center;
+  font-family: 'Rubik';
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.6875rem;
+  color: #F2994A;
+}
+main .BkgCardBlock .CardBlock .CardBasicText {
+  margin-top: 1.25rem;
+  font-family: 'Rubik';
+  font-size: 1rem;
+  line-height: 1.375rem;
+  text-align: center;
+  color: #95A1BB;
+}
+main .BkgCardBlock .CardBlock .CardIntBlock {
+  margin-top: 1.4375rem;
+  display: flex;
+  justify-content: center;
+}
+main .BkgCardBlock .CardBlock .CardIntBlock .CardInput {
+  width: 33%;
+  height: 3.5rem;
+  font-family: 'Inter';
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.2px;
+  color: #000000;
+  background: #F6F6F6;
+  opacity: 0.3;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 30px;
+}
+main .BkgCardBlock .CardBlock .CardIntBlock .SendBtn {
+  background: #F2994A;
+  border-radius: 0px 5px 5px 0px;
+  font-family: 'Rubik';
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 11%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .BkgCardBlock .CardBlock .SendInfoText {
+  font-family: 'Gilroy-SemiBold';
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.2px;
+  color: #8476AA;
+  text-align: center;
+  margin-top: 1rem;
+}
+footer:before {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: url('img/FooterBkg.png');
+  opacity: 0.4;
+}
+footer {
+  margin-top: 150px;
+  position: relative;
+  height: 580px;
+  z-index: 1;
+  overflow: hidden;
+}
+footer .FooterInfoBlock {
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+}
+footer .FooterInfoBlock .SocialLine {
+  display: grid;
+  grid-template-columns: 67.7419% 32.258%;
+}
+footer .FooterInfoBlock .SocialLine .LineName {
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 1.625rem;
+  line-height: 2rem;
+  letter-spacing: 0.325px;
+  color: #F2994A;
+}
+footer .FooterInfoBlock .SocialLine .SocialBlock {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+footer .FooterInfoBlock .SocialLine .SocialBlock .GooglePage {
+  background-image: url(img/Google.png);
+}
+footer .FooterInfoBlock .SocialLine .SocialBlock .TwiterPage {
+  background-image: url(img/Twitter.png);
+}
+footer .FooterInfoBlock .SocialLine .SocialBlock .FacebookPage {
+  background-image: url(img/Facebook.png);
+}
+footer .FooterInfoBlock .SocialLine .SocialBlock .SocPage {
+  background-repeat: no-repeat;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+footer .FooterInfoBlock .LinksPages {
+  display: grid;
+  grid-template-columns: 11% 11% 11% 11%;
+  grid-column-gap: 16.2337%;
+  margin-top: 3.125rem;
+}
+footer .FooterInfoBlock .LinksPages .LinkItem {
+  display: block;
+}
+footer .FooterInfoBlock .LinksPages .LinkItem .LinkItemName {
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+footer .FooterInfoBlock .LinksPages .LinkItem .ItemNum1Link p {
+  font-family: 'Inter';
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  display: flex;
+}
+footer .AddLinks {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+}
+footer .AddLinks .AddLinkItem {
+  display: flex;
+  margin-left: 2%;
+}
+footer .AddLinks .AddLinkItem .AddLinkText {
+  font-family: 'Inter';
+  display: flex;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.2px;
+  color: #8D8D8D;
+}
+@media screen and (min-width: 2559px) {
+  body {
+    width: 93%;
+  }
+  header .menu .logo {
+    width: 60px;
+    height: 60px;
+  }
+  header .menu .MenuBlock .MenuItem {
+    font-size: 1.3rem;
+    margin-top: 1.5%;
+  }
+  header .menu .SignIn {
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  header .menu .SignUp {
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .BasicTitleText {
+    font-size: 4rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .AddInfoText {
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn .LearnMore {
+    font-size: 1rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn .Demo {
+    font-size: 1rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .VideoPreview {
+    width: 25%;
+  }
+  header .ChoiceAndSponsors .Sponsors .SponsorItemImg {
+    width: 150%;
+  }
+  header .ChoiceAndSponsors .Choice .ChoiceName {
+    font-size: 3.5rem;
+  }
+  header .ChoiceAndSponsors .Choice .ChoiceInfoText {
+    font-size: 1.5rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock {
+    height: 300px;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceImg {
+    width: 50%;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChocieItemName {
+    font-size: 1.5rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChoiceItemText {
+    font-size: 1.2rem;
+  }
+  main .TrafficInfoBlock {
+    margin-top: 32em;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficInfoName {
+    font-size: 3.625rem;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficTextBlock {
+    font-size: 1.75rem;
+  }
+  main .TrafficInfoBlock .TrafficInfoText button {
+    font-size: 1.5rem;
+  }
+  main .TrafficInfoBlock .TrafficImg {
+    width: 100%;
+  }
+  main .TrafficInfoBlock .TrafficImg .StatisticImg {
+    width: 100%;
+  }
+  main .BkgTrafficBlock {
+    width: 30%;
+    margin-top: -200px;
+  }
+  main .BkgCardBlock {
+    margin-top: 500px;
+  }
+  main .BkgCardBlock .ThirdBkg {
+    width: 107%;
+  }
+  main .BkgCardBlock .CardBlock {
+    margin-top: -600px;
+    height: 555px;
+  }
+  main .BkgCardBlock .CardBlock .CardNameText {
+    font-size: 3.25rem;
+    padding-top: 5rem;
+  }
+  main .BkgCardBlock .CardBlock .CardBasicText {
+    font-size: 1.5rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock {
+    margin-top: 2.5rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .CardInput {
+    height: 4.5rem;
+    font-size: 1.5rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .SendBtn {
+    font-size: 1rem;
+  }
+  main .BkgCardBlock .CardBlock .SendInfoText {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+  }
+  footer .FooterInfoBlock .SocialLine .LineName {
+    font-size: 2rem;
+  }
+  footer .FooterInfoBlock .SocialLine .SocialBlock .SocPage {
+    width: 60px;
+    height: 60px;
+    background-size: 100%;
+    margin-left: 1rem;
+  }
+  footer .FooterInfoBlock .LinksPages .LinkItem .LinkItemName {
+    font-size: 1.5rem;
+  }
+  footer .FooterInfoBlock .LinksPages .LinkItem .ItemNum1Link p {
+    font-size: 1.2rem;
+  }
+  footer .FooterInfoBlock .AddLinks .AddLinkItem .AddLinkText {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1441px) {
+  body {
+    width: 100%;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .BasicTitleText {
+    font-size: 2.2rem;
+  }
+  header .ChoiceAndSponsors .BkgChoiceBlock {
+    grid-template-columns: 22% 22%;
+    gap: 0px 54%;
+    margin-top: -5%;
+    width: 100%;
+  }
+  main .BkgCardBlock .CardBlock {
+    margin-top: -300px;
+  }
+  footer .FooterInfoBlock .LinksPages {
+    grid-template-columns: 15% 15% 15% 15%;
+    grid-column-gap: 15.2337%;
+  }
+}
+@media screen and (max-width: 1151px) {
+  header .menu {
+    grid-template-columns: 6.2992% 70.1023% 11.6744% 23.39534%;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .BasicTitleText {
+    font-size: 2rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .AddInfoText {
+    font-size: 0.9rem;
+  }
+  header .ChoiceAndSponsors .BkgChoiceBlock {
+    grid-template-columns: 20% 20%;
+    gap: 0px 60%;
+  }
+  header .ChoiceAndSponsors .BkgChoiceBlock .FirstBkgChoice {
+    width: 80%;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock {
+    width: 80%;
+    grid-row-gap: 50px;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficInfoName {
+    font-size: 2.45rem;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficTextBlock {
+    font-size: 0.65rem;
+  }
+  main .BkgCardBlock .CardBlock {
+    height: 300px;
+  }
+  main .BkgCardBlock .CardBlock .CardNameText {
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+  footer .FooterInfoBlock .LinksPages {
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 7%;
+  }
+}
+@media screen and (max-width: 1070px) {
+  header .BasicInfoBLock .NeedInfoBlock .BasicTitleText {
+    font-size: 1.8rem;
+  }
+  header .ChoiceAndSponsors .BkgChoiceBlock {
+    gap: 0px 40%;
+    grid-template-columns: 30% 30%;
+    margin-top: 2%;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock {
+    width: 85%;
+  }
+  footer .FooterInfoBlock .LinksPages {
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 5%;
+  }
+  footer .AddLinks {
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  body {
+    width: 84%;
+    max-width: 88%;
+  }
+  header {
+    width: 100%;
+  }
+  header .menu {
+    grid-template-columns: 6.2992% 75.1023% 15.6744% 15.39534%;
+  }
+  header .menu .SignIn {
+    width: 80%;
+  }
+  header .menu .SignUp {
+    width: 80%;
+  }
+  header .BasicInfoBLock {
+    grid-template-columns: 55% 60%;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .BasicTitleText {
+    font-size: 1.7rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .AddInfoText {
+    font-size: 0.9rem;
+  }
+  header .ChoiceAndSponsors {
+    width: 116%;
+    max-width: 116%;
+  }
+  header .ChoiceAndSponsors .BkgChoiceBlock {
+    gap: 0px 45%;
+    grid-template-columns: 35% 35%;
+  }
+  header .ChoiceAndSponsors .Sponsors {
+    column-gap: 3.208333%;
+    margin-top: 50px;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock {
+    grid-row-gap: 65px;
+    grid-template-columns: 30% 30% 33%;
+    grid-column-gap: 4%;
+    width: 90%;
+  }
+  main .TrafficInfoBlock {
+    grid-template-columns: 55.5% 65.41%;
+    width: 80%;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficInfoName {
+    font-size: 2.5rem;
+  }
+  main .TrafficInfoBlock .TrafficImg .StatisticImg {
+    width: 100%;
+  }
+  main .BkgCardBlock {
+    width: 118%;
+  }
+  main .BkgCardBlock .CardBlock {
+    margin-top: -270px;
+    height: 220px;
+  }
+  main .BkgCardBlock .CardBlock .CardNameText {
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+  main .BkgCardBlock .CardBlock .CardBasicText {
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock {
+    margin-top: 0.5rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .CardInput {
+    height: 2rem;
+    z-index: 1;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .SendBtn {
+    font-size: 0.5rem;
+    margin-left: -15px;
+    z-index: 2;
+    height: 2.2rem;
+  }
+  main .BkgCardBlock .CardBlock .SendInfoText {
+    font-size: 0.65rem;
+    margin-top: 0.5rem;
+  }
+  footer {
+    width: 118%;
+  }
+  footer .FooterInfoBlock .LinksPages {
+    grid-column-gap: 8%;
+  }
+  footer .FooterInfoBlock .LinksPages .LinkItem .LinkItemName {
+    font-size: 0.85rem;
+    line-height: 1rem;
+  }
+  footer .FooterInfoBlock .LinksPages .LinkItem .ItemNum1Link p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (max-width: 769px) {
+  body {
+    width: 71%;
+    max-width: 71%;
+  }
+  header .menu {
+    grid-template-columns: 8.2992% 100.1023% 18.6744% 18.39534%;
+    margin-left: 5%;
+  }
+  header .menu .MenuBlock .MenuItem {
+    margin-top: 10px;
+  }
+  header .menu .SignIn {
+    height: 2rem;
+    margin-top: 3px;
+  }
+  header .menu .SignUp {
+    height: 2rem;
+    margin-top: 3px;
+  }
+  header .BasicInfoBLock {
+    grid-template-columns: 65% 74%;
+    margin-left: 5%;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .BasicTitleText {
+    font-size: 1.3rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .AddInfoText {
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn {
+    margin-top: 15px;
+    grid-template-rows: 35px;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn .LearnMore {
+    font-size: 0.5rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn .Demo {
+    font-size: 0.5rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock #VideoPrev .VideoPreview {
+    width: 25%;
+  }
+  header .ChoiceAndSponsors .Sponsors {
+    width: 120%;
+    column-gap: 1.5%;
+  }
+  header .ChoiceAndSponsors .Sponsors .SponsorItem .SponsorItemImg {
+    width: 75%;
+  }
+  header .ChoiceAndSponsors .Choice {
+    width: 120%;
+  }
+  header .ChoiceAndSponsors .Choice .ChoiceName {
+    font-size: 2rem;
+  }
+  header .ChoiceAndSponsors .Choice .ChoiceInfoText {
+    margin-top: -1.125rem;
+    font-size: 0.8rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock {
+    margin-top: 2.1875rem;
+    height: 450px;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock {
+    grid-template-rows: 180px;
+    grid-row-gap: 15px;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChocieItemName {
+    font-size: 0.8rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChoiceItemText {
+    font-size: 0.7rem;
+  }
+  main .TrafficInfoBlock {
+    grid-template-columns: 72.5% 82.41%;
+    margin-top: 0;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficInfoName {
+    font-size: 1.95rem;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficTextBlock {
+    font-size: 0.75rem;
+  }
+  main .TrafficInfoBlock .TrafficInfoText button {
+    margin-top: 1.125rem;
+  }
+  main .BkgTrafficBlock {
+    margin-top: 10em;
+    width: 60%;
+  }
+  main .BkgCardBlock {
+    width: 135%;
+  }
+  main .BkgCardBlock .ThirdBkg {
+    width: 103%;
+  }
+  main .BkgCardBlock .CardBlock {
+    margin-top: -180px;
+    height: 166px;
+  }
+  main .BkgCardBlock .CardBlock .CardNameText {
+    font-size: 1rem;
+  }
+  main .BkgCardBlock .CardBlock .CardBasicText {
+    font-size: 0.6rem;
+    margin-top: -0.7rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .CardInput {
+    height: 1.5rem;
+    font-size: 0.7rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .SendBtn {
+    height: 1.75rem;
+  }
+  main .BkgCardBlock .CardBlock .SendInfoText {
+    font-size: 0.5rem;
+    margin-top: 0.1rem;
+  }
+  footer {
+    width: 140%;
+  }
+  footer .FooterInfoBlock {
+    width: 90%;
+  }
+  footer .FooterInfoBlock .SocialLine .LineName {
+    font-size: 1.5rem;
+  }
+  footer .FooterInfoBlock .SocialLine .SocialBlock {
+    margin-top: 1.5rem;
+  }
+  footer .FooterInfoBlock .AddLinks {
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 645px) {
+  header .menu {
+    grid-template-columns: 8.2992% 95.1023% 18.6744% 18.39534%;
+  }
+  header .menu .MenuBlock .MenuItem {
+    font-size: 0.56rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .BasicTitleText {
+    font-size: 1.1rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .AddInfoText {
+    font-size: 0.5rem;
+  }
+  header .ChoiceAndSponsors .BkgChoiceBlock {
+    grid-template-columns: 40% 40%;
+    gap: 0px 52%;
+  }
+  header .ChoiceAndSponsors .BkgChoiceBlock .FirstBkgChoice .FirstBkgImg {
+    width: 100%;
+  }
+  header .ChoiceAndSponsors .Sponsors {
+    width: 100%;
+    column-gap: 1.5%;
+    padding: 0 10%;
+  }
+  header .ChoiceAndSponsors .Choice .ChoiceName {
+    font-size: 2rem;
+  }
+  header .ChoiceAndSponsors .Choice .ChoiceInfoText {
+    font-size: 0.7rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock {
+    margin-top: 1.25rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock {
+    grid-template-rows: 130px;
+    grid-row-gap: 30px;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChocieItemName {
+    font-size: 0.7rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChoiceItemText {
+    font-size: 0.6rem;
+  }
+  main .TrafficInfoBlock {
+    margin-top: -4em;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficInfoName {
+    font-size: 1.4rem;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficTextBlock {
+    font-size: 0.5rem;
+  }
+  main .BkgCardBlock {
+    margin-top: 0em;
+  }
+  main .BkgCardBlock .CardBlock {
+    margin-top: -145px;
+    height: 112px;
+  }
+  main .BkgCardBlock .CardBlock .CardNameText {
+    padding-top: 0.3rem;
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+  main .BkgCardBlock .CardBlock .CardBasicText {
+    margin-top: 0.1rem;
+    font-size: 0.4rem;
+    line-height: 0.5rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .CardInput {
+    height: 1rem;
+    font-size: 0.5rem;
+    padding-left: 10px;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .SendBtn {
+    height: 1.25rem;
+    font-size: 0.3rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .SendInfoText {
+    font-size: 0.3rem;
+  }
+  footer {
+    margin-top: 60px;
+  }
+  footer .FooterInfoBlock .LinksPages {
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-column-gap: 4%;
+  }
+}
+@media screen and (max-width: 545px) {
+  header .menu {
+    grid-template-columns: 8.2992% 98.1023% 18.6744% 18.39534%;
+  }
+  header .menu .SignIn {
+    height: 1.5rem;
+    font-size: 0.5rem;
+    margin-top: 6px;
+  }
+  header .menu .SignUp {
+    height: 1.5rem;
+    font-size: 0.5rem;
+    margin-top: 6px;
+  }
+  header .menu .MenuBlock .MenuItem {
+    font-size: 0.5rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .BasicTitleText {
+    font-size: 0.9rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .AddInfoText {
+    font-size: 0.45rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn {
+    grid-template-rows: 25px;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn .LearnMore {
+    font-size: 0.2rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn .Demo {
+    font-size: 0.2rem;
+  }
+  header .ChoiceAndSponsors .Choice {
+    margin-top: 30px;
+  }
+  header .ChoiceAndSponsors .Choice .ChoiceName {
+    font-size: 1.5rem;
+  }
+  header .ChoiceAndSponsors .Choice .ChoiceInfoText {
+    font-size: 0.5rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock {
+    grid-template-columns: 32% 35% 36%;
+    grid-column-gap: 0%;
+    grid-row-gap: 20px;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChocieItemName {
+    font-size: 0.55rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChoiceItemText {
+    font-size: 0.5rem;
+    line-height: 1rem;
+  }
+  main .TrafficInfoBlock {
+    padding-top: 0px;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficInfoName {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficTextBlock {
+    line-height: 1rem;
+    margin-top: 2em;
+  }
+  main .TrafficInfoBlock .TrafficInfoText button {
+    font-size: 0.35rem;
+    padding: 0.45rem 0.85rem;
+    margin-top: 2rem;
+  }
+  main .BkgTrafficBlock {
+    margin-top: 60px;
+    width: 50%;
+  }
+  main .BkgCardBlock .CardBlock {
+    margin-top: -130px;
+    height: 100px;
+  }
+  main .BkgCardBlock .CardBlock .CardNameText {
+    font-size: 0.8rem;
+  }
+  main .BkgCardBlock .CardBlock .CardBasicText {
+    font-size: 0.4rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .CardInput {
+    height: 1rem;
+    font-size: 0.5rem;
+    padding-left: 10px;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .SendBtn {
+    height: 1.25rem;
+    font-size: 0.25rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .SendInfoText {
+    font-size: 0.2rem;
+  }
+  footer .FooterInfoBlock .LinksPages {
+    grid-template-columns: 23% 23% 23% 23%;
+  }
+}
+@media screen and (max-width: 485px) {
+  header .menu .logo {
+    width: 100%;
+    margin-top: 0.3125rem;
+  }
+  header .menu .MenuBlock .MenuItem {
+    font-size: 0.4rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .AddInfoText {
+    font-size: 0.4rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock {
+    grid-template-columns: 30% 33% 40%;
+    grid-column-gap: 0%;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceImg {
+    width: 85%;
+    margin-top: 0.125rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChoiceItemText {
+    font-size: 0.5rem;
+  }
+  main .TrafficInfoBlock {
+    margin-top: -6em;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficInfoName {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficTextBlock {
+    line-height: 1.125rem;
+  }
+  main .TrafficInfoBlock .TrafficInfoText button {
+    margin-top: 1.125rem;
+  }
+  main .BkgTrafficBlock {
+    margin-top: 40px;
+  }
+  main .BkgCardBlock .CardBlock {
+    margin-top: -110px;
+    height: 88px;
+  }
+  main .BkgCardBlock .CardBlock .CardNameText {
+    font-size: 0.5rem;
+  }
+  main .BkgCardBlock .CardBlock .CardBasicText {
+    font-size: 0.2rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock {
+    margin-top: 0.3rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .CardInput {
+    height: 0.8rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .SendBtn {
+    height: 1rem;
+    font-size: 0.15rem;
+  }
+  main .BkgCardBlock .CardBlock .SendInfoText {
+    font-size: 0.1rem;
+  }
+  footer .FooterInfoBlock .SocialLine {
+    grid-template-columns: 62.7419% 37.258%;
+  }
+  footer .FooterInfoBlock .SocialLine .LineName {
+    font-size: 1.2rem;
+  }
+  footer .FooterInfoBlock .LinksPages .LinkItem .LinkItemName {
+    font-size: 0.8rem;
+  }
+  footer .FooterInfoBlock .LinksPages .LinkItem .ItemNum1Link p {
+    font-size: 0.65rem;
+  }
+  footer .FooterInfoBlock .AddLinks .AddLinkItem .AddLinkText {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 365px) {
+  header .menu .logo {
+    width: 100%;
+  }
+  header .menu .MenuBlock .MenuItem {
+    font-size: 0.3rem;
+    margin-top: 2%;
+    letter-spacing: 1px;
+    margin-left: 0.5rem;
+  }
+  header .menu .SignIn {
+    height: 1rem;
+    font-size: 0.25rem;
+    margin-top: 5px;
+  }
+  header .menu .SignUp {
+    height: 1rem;
+    font-size: 0.25rem;
+    margin-top: 5px;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .BasicTitleText {
+    font-size: 0.55rem;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .AddInfoText {
+    line-height: 0.4rem;
+    font-size: 5px;
+    margin-top: 10px;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn {
+    grid-template-rows: 20px;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn .LearnMore {
+    font-size: 5px;
+  }
+  header .BasicInfoBLock .NeedInfoBlock .LearnOrDemoBtn .Demo {
+    font-size: 5px;
+  }
+  header .ChoiceAndSponsors {
+    margin-top: -15px;
+  }
+  header .ChoiceAndSponsors .Choice .ChoiceName {
+    font-size: 1rem;
+  }
+  header .ChoiceAndSponsors .Choice .ChoiceInfoText {
+    font-size: 0.55rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock {
+    grid-template-rows: 50px;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceImg {
+    width: 85%;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChocieItemName {
+    font-size: 0.4rem;
+  }
+  header .ChoiceAndSponsors .Choice .CenterChoiceBlock .InfoChoiceBlock .ChoiceItem .ChoiceTextInfo .ChoiceItemText {
+    line-height: 10px;
+    font-size: 0.2rem;
+    margin-top: 0;
+  }
+  main .TrafficInfoBlock {
+    padding-top: 0px;
+    margin-top: -15em;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficInfoName {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  main .TrafficInfoBlock .TrafficInfoText .TrafficTextBlock {
+    line-height: 0.5rem;
+    font-size: 0.2rem;
+    margin-top: 1em;
+  }
+  main .TrafficInfoBlock .TrafficInfoText button {
+    margin-top: 0.5rem;
+    line-height: 0.25rem;
+    font-size: 0.1rem;
+    padding: 0.5rem 0.25rem;
+    letter-spacing: 1px;
+  }
+  main .BkgTrafficBlock {
+    margin-top: -8rem;
+  }
+  main .BkgCardBlock .CardBlock {
+    height: 66px;
+    margin-top: -80px;
+  }
+  main .BkgCardBlock .CardBlock .CardNameText {
+    font-size: 0.45rem;
+    padding-top: 0.2rem;
+    line-height: 0.5rem;
+  }
+  main .BkgCardBlock .CardBlock .CardBasicText {
+    line-height: 0.5rem;
+    margin-top: 0.1rem;
+    font-size: 5px;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock {
+    margin-top: 0;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .CardInput {
+    font-size: 0.4rem;
+    height: 0.7rem;
+  }
+  main .BkgCardBlock .CardBlock .CardIntBlock .SendBtn {
+    font-size: 0.3rem;
+    width: 15%;
+    height: 0.9rem;
+  }
+  main .BkgCardBlock .CardBlock .SendInfoText {
+    font-size: 4px;
+    margin-top: -0.4rem;
+  }
+  footer .FooterInfoBlock .SocialLine {
+    grid-template-columns: 55% 45%;
+  }
+  footer .FooterInfoBlock .SocialLine .LineName {
+    font-size: 1rem;
+  }
+  footer .FooterInfoBlock .SocialLine .SocialBlock {
+    width: 130px;
+    margin-top: 0.7rem;
+    background-size: 100%;
+  }
+  footer .FooterInfoBlock .SocialLine .SocialBlock .SocPage {
+    width: 40px;
+  }
+  footer .FooterInfoBlock .LinksPages .LinkItem .LinkItemName p {
+    font-size: 0.6rem;
+  }
+  footer .FooterInfoBlock .LinksPages .LinkItem .ItemNum1Link p {
+    font-size: 0.5rem;
+  }
+  footer .FooterInfoBlock .AddLinks {
+    margin-top: 170px;
+  }
+  footer .FooterInfoBlock .AddLinks .AddLinkItem .AddLinkText {
+    font-size: 0.5rem;
+  }
+}
